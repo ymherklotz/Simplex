@@ -23,4 +23,4 @@ $(BUILD_DIR)/%.o : %.cpp
 
 .PHONY : clean
 clean :
-	-rm $(BUILD_DIR)/$(BIN) $(OBJ) $(DEP)
+	-rm -rf $(BUILD_DIR)
